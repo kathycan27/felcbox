@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+
+.cajita{
+    background-color: rgb(229, 229, 250);
+    height: 500px;
+    width: 300px;
+    border-radius: 20px;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    top: 40px;  
+    border-color: rgb(203, 221, 245);
+    
+}
+p{
+    text-align: left;
+    margin-inline-start: 30px;
+}
+
+
+.foto
+{
+    
+    margin: 0px auto;
+    border-radius: 20px 20px 0px 0px;
+}
+img{
+    border-radius: 20px 20px 0px 0px;
+    box-shadow: 2px 2px 5px #999;
+    width: 100%;
+    height: 180px;
+}
+.contenedor{
+    margin: 0px auto;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    display:flex;
+    flex-direction: row;
+    background-color: rgb(205, 255, 228);
+    align-items: center;
+    }
+.elemento.p{
+    text-decoration:underline;
+    color: blue;
+}
+    .elemento{
+    width:35%;
+    }
+    .imagen{
+        filter: brightness(1.1);
+        mix-blend-mode: multiply;
+        width: 20px;
+        padding-left: 20px;
+
+
+    }
+    .payment{
+        margin: 0px auto;
+        border-radius: 10px;
+        width: 200px;
+        height: 50px;
+        display:flex;
+        align-items: center;
+        flex-direction: row;
+        background-color: rgb(22, 7, 151);
+
+        color: white;
+        }
+        .proceed{
+            width:100%;
+            }
+        
+    .cancel{
+         margin: 0px auto;
+         border-radius: 10px;
+         width: 200px;
+        height: 50px;
+        display:flex;
+         align-items: center;
+        flex-direction: row;
+        color: rgb(71, 68, 68);
+            }
+
+    .cancelar{
+                    width:100%;
+                    }
+            
